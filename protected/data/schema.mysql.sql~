@@ -7,6 +7,7 @@ CREATE TABLE tbl_personinfo
 	dob DATE NOT NULL,
 	place_birth VARCHAR(255) NOT NULL,
 	nationality VARCHAR(255) NOT NULL,
+	email VARCHAR(255) NOT NULL,
 	photo VARCHAR(255) NOT NULL,
 	house_tel VARCHAR(255) NOT NULL,
 	office_tel VARCHAR(255) NOT NULL,
@@ -129,5 +130,5 @@ INSERT INTO tbl_academic_type(description) VALUES("");
 
 INSERT INTO tbl_experience(expertize1,expertize2,experience_years,experience_country) VALUES ("Finite Elements in Structures","Seismic Design","","Tanzania, Kenya, Ethiopia and Sudan");
 
-	INSERT INTO tbl_personinfo(surname,fname,sname,dob,place_birth,nationality,photo,house_tel,office_tel,mobile) VALUES ("Qadri","Sayed","Rizwan","22.10.1961","Dar es Salaam","Tanzania","","+255784323218","+255222602573","+255786750051");
+	INSERT INTO tbl_personinfo(surname,fname,sname,dob,place_birth,nationality,email,photo,house_tel,office_tel,mobile) VALUES ("Qadri","Sayed","Rizwan","22.10.1961","Dar es Salaam","Tanzania","","","+255784323218","+255222602573","+255786750051");
 
